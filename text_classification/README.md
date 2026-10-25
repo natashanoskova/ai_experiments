@@ -25,7 +25,7 @@
 Разница между F1-score на валидации 0.8344 и тесте 0.8300 составляет менее 0.5%, что доказывает отсутствие переобучения и хорошую обобщающую способность модели.
 
 ## Стек 
-- **Base Model:** [Google Gemma-2-2b-it]([https://huggingface.co](https://huggingface.co/google/gemma-2-2b-it))
+- **Base Model:** [Google Gemma-2-2b-it](https://huggingface.co/google/gemma-2-2b-it)
 - **Fine-Tuning:** Unsloth, PEFT (LoRA), BitsAndBytes (4-bit quantization)
 - **Frameworks:** PyTorch, Hugging Face Transformers & Datasets, Scikit-Learn
 - **Hardware:** Google Colab / GPU Tesla T4 (16GB VRAM)
